@@ -1,0 +1,19 @@
+{
+  "name": "@b6y/error",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "check": "tsc --skipLibCheck --pretty --project tsconfig.json -w --noEmit"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.3"
+  }
+}
